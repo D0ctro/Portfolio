@@ -19,15 +19,20 @@ The assets utilized in this small beginner project were not created by me but we
 
 # Installation
 
-
+*Insert Link for Installation*
 
 # How To Play
 
-
+In order to play my Snowboarding game you will need to drive down the mountain safely and reach the goal. 
+Doing tricks will speed up this process as you will get a speedboost landing on the ground. 
+If you land on your head you will respawn in the beginning of the track so try not to. 
 
 # Controls
 
+The Controls are the following:
 
+- Hold A/D = turning clockwise/ anti clockwise
+- Spacebar = Jumping upwards
 
 # Improvements
 
