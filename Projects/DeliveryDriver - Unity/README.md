@@ -11,6 +11,7 @@ The assets utilized in this small beginner project were not created by me but we
 3. [How To Play](#how-to-play)
 4. [Controls](#controls)
 5. [Improvements](#improvements)
+6. [Code](#Code)
 
 ## Description
 
@@ -49,3 +50,38 @@ The game was only a start to get to know Unity and get comfortable with using sc
 
 These improvements could help make somebody enjoy this little game for longer and would help better my programming skills.
 
+## Code
+
+### Driver
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/8484918a-cdec-4c3b-bd07-fa9a20af2289)
+
+- **Driver Object**: The driver is the object responsible for handling all user inputs and driving around the town. I began by initializing variables crucial for driving the car and placed them within a `SerializeField` attribute to make them accessible in the Unity Editor. This allows me to tweak them during game testing to enhance the user experience.
+
+- **Update Function**: Within the `Update` function, I dynamically adjust the driving speed of the car based on whether horizontal or vertical keys are pressed. Additionally, I enable the car to rotate based on the `steerAmount` variable.
+
+- **OnTriggerEnter2D Function**: This function manages scenarios where the player encounters another object tagged as "Boost," such as the green booster. If the tag matches "Boost," the `moveSpeed`, which determines the car's forward/backward speed, is adjusted to the `boostSpeed` variable.
+
+- **OnCollisionEnter2D Function**: This function handles situations where the player collides with any collider-bearing object in the game. In such cases, the `moveSpeed` is set to the `slowSpeed` variable.
+
+### Delivery
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/3c7d1ffc-1e8d-4022-a00b-58e44e5b061f)
+
+The primary focus of this script is to establish variables necessary for creating the delivery system. Upon triggering the `OnTriggerEnter2D` function on an object tagged as "Package," the `HasP` Boolean is toggled to true if it was false previously. Subsequently, the car's color changes to indicate package pickup. Upon pickup, the package is destroyed, prompting the player to trigger the `OnTriggerEnter2D` function on an object tagged as "Customer" to revert to having no package.
+
+### Delivery
+
+![Delivery Image](https://github.com/D0ctro/Portfolio/assets/100345820/3c7d1ffc-1e8d-4022-a00b-58e44e5b061f)
+
+The primary focus of the Delivery script is to establish variables necessary for creating the delivery system. Upon triggering the `OnTriggerEnter2D` function on an object tagged as "Package," the `HasP` Boolean is toggled to true if it was false previously. Subsequently, the car's color changes to indicate package pickup. Upon pickup, the package is destroyed, prompting the player to trigger the `OnTriggerEnter2D` function on an object tagged as "Customer" to revert to having no package.
+
+### WorldBorder
+
+![WorldBorder Image](https://github.com/D0ctro/Portfolio/assets/100345820/8d6370f9-5e31-49c1-887b-7ed0ae9ee327)
+
+The WorldBorder script was developed after completing the initial project. Its purpose is to ensure the car is brought back to the center of the map in case the player drives too far or ventures outside of the map boundaries. By creating a new Vector3 that changes the car's spawnpoint to (0,0,0), and implementing a large trigger zone matching the map's size, the player's position is reset to the respawn point whenever the car exits this zone.
+
+### FollowCamera
+
+The FollowCamera script's sole purpose is to track the position of the `thingToFollow` GameObject attached to the Player. It updates the camera's position every frame to follow the `thingToFollow` object, providing a zoomed-out view.
