@@ -58,10 +58,12 @@ The CrashDetector manages collision detection and player respawn functionality. 
 ### FinishLine
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/4950ce6c-6691-4e0b-91d4-8d68a4098756)
+FinishLine handles the interaction of the player reaching the finish line and "wins" the game. Key components include the `WinDelay` for timing the scene reload after crossing the finish line, and various `finishEffect` particle systems for visual effects. The `OnTriggerEnter2D()` method detects when the player collides with the finish line, triggering finish line effects, playing an audio cue, and reloades the scene using `Invoke()` if the player hasn't finished previously. The `FinishLineEffects()` function plays my own particle effects while stopping the `finishLingerEffect`. Finally, the `ReloadScene()` function reloads the scene after a delay.
 
 ### DustTrail
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/a48a15bb-64da-4cf3-9704-64ba40ee15b3)
+DustTrail manages the generation of dust trails behind the player. It includes particle systems such as `SnowTrail`, `SnowBump1`, and `SnowBump2` for creating visual effects. The `OnCollisionEnter2D()` method triggers the particle systems to play when the player collides with an object tagged as "Respawn", simulating the creation of dust trails. Conversely, the `OnCollisionExit2D()` method stops the `SnowTrail` particle system when the player exits the collision with the "Respawn" object, ensuring the dust trail effect ceases appropriately.
 
 ### BGM
 
