@@ -63,8 +63,9 @@ FinishLine handles the interaction of the player reaching the finish line and "w
 ### DustTrail
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/a48a15bb-64da-4cf3-9704-64ba40ee15b3)
-DustTrail manages the generation of dust trails behind the player. It includes particle systems such as `SnowTrail`, `SnowBump1`, and `SnowBump2` for creating visual effects. The `OnCollisionEnter2D()` method triggers the particle systems to play when the player collides with an object tagged as "Respawn", simulating the creation of dust trails. Conversely, the `OnCollisionExit2D()` method stops the `SnowTrail` particle system when the player exits the collision with the "Respawn" object, ensuring the dust trail effect ceases appropriately.
+DustTrail manages the generation of dust trails behind the player. It includes particles such as `SnowTrail`, `SnowBump1`, and `SnowBump2` for creating visual effects. The `OnCollisionEnter2D()` method triggers the particles to play when the player collides with an object tagged as "Respawn" same as in the CrashDetector. `OnCollisionExit2D()` method stops the `SnowTrail` particle system when the player exits the collision with the "Respawn" object, ensuring the dust trail effect ceases appropriately and does not play after respawning at the start of the scene.
 
 ### BGM
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/fcec0e2e-e04b-49ba-9f9d-50e1261d79e7)
+BGM lets me play Music in the background. It features three different audio clips: `BGM1`, `BGM2`, and `BGM3`. The `Start()` method ensures that only one instance of the `BGM` object exists throughout the game. If there's already an existing instance, it destroys the current game object to prevent duplication. Otherwise, it sets the current instance to this object, plays the `BGM2` audio clip, and ensures that the object persists across scene changes using `DontDestroyOnLoad()`. This structure ensures consistent background music across the game without interruption due to respawning through crashing or finishing the game.
