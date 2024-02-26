@@ -27,7 +27,8 @@ In this game you can rotate your character mid air and gain speed when landing a
 # How To Play
 
 In order to play my Snowboarding game you will need to drive down the mountain safely and reach the goal. 
-Doing tricks will speed up this process as you will get a speedboost landing on the ground. 
+Doing tricks will speed up this process by holding down W to get a speed boost and zoom down the mountain or do big jumps using the mountain slopes. 
+Or hold down S to slow down and ensure you wont crash or will not jump too far after a slope. 
 If you land on your head you will respawn in the beginning of the track so try not to. 
 
 # Controls
