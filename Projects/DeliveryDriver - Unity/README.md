@@ -53,7 +53,9 @@ These improvements could help make somebody enjoy this little game for longer an
 As for things I would change that are already in the game I have a few things I would change. 
 I know this game was just a beginner project for getting used to unity, but even then a few things could be fixed making it better.  
 
-- More realistic driving, meaning your for example not able to turn while standing still or 
+- More realistic driving, meaning your for example not able to turn while standing still or potentially speeding up by continuously driving in the same direction instead of a fixed base speed.
+- Match the drivers speed, steering etc. more fitting in regards to the map layout and size making it more fun.
+- Make the "assets" of the Boost, package, reciepient and future additions look better or for example the package look like a package. 
 
 ## Code
 
