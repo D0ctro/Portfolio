@@ -35,6 +35,7 @@ If you land on your head you will respawn in the beginning of the track so try n
 The Controls are the following:
 
 - Hold A/D = turning clockwise/ anti clockwise
+- Hold S = Slow down your speed
 - Spacebar = Jumping upwards
 
 # Improvements
