@@ -50,6 +50,11 @@ The game was only a start to get to know Unity and get comfortable with using sc
 
 These improvements could help make somebody enjoy this little game for longer and would help better my programming skills.
 
+As for things I would change that are already in the game I have a few things I would change. 
+I know this game was just a beginner project for getting used to unity, but even then a few things could be fixed making it better.  
+
+- More realistic driving, meaning your for example not able to turn while standing still or 
+
 ## Code
 
 ### Driver
