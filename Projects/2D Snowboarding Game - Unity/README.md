@@ -36,6 +36,7 @@ The Controls are the following:
 
 - Hold A/D = turning clockwise/ anti clockwise
 - Hold S = Slow down your speed
+- Hold W = Increase your speed 
 - Spacebar = Jumping upwards
 
 # Improvements
