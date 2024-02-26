@@ -48,6 +48,8 @@ The Controls are the following:
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/5b7e6562-632f-4f6b-8239-9fa78474614b)
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/35cd69ed-f300-4505-8762-18a75f3be739)
 
+The PlayerController governs the player's movement and behavior. Key variables such as `torqueAmount`, `boostSpeed`, `baseSpeed`, and `slowSpeed` determine the player's rotational torque and speed characteristics. The `DisableControls()` method halts player movement when called. The `RespondToBoost()` function adjusts the player's speed based on keyboard input, with `S` reducing speed, `W` activating a boost, and defaulting to `baseSpeed`. The `Rotation()` method applies torque to the player object when the corresponding keys `A` or `D` are pressed, allowing for directional control.
+
 ### CrashDetector
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/ebfc4d8f-4220-4563-b6c6-2046cf7badec)
