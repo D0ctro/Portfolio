@@ -43,17 +43,15 @@ The Controls are the following:
 
 For enhancing this game or continuing its development, consider the following additions and improvements:
 
-- Adding Collectibles and Currency**: Incorporate collectibles with corresponding sound effects. Scatter them across existing maps or introduce new ones for added variety.
+- Adding Collectibles and Currency: Incorporate collectibles with corresponding sound effects. Scatter them across existing maps or introduce new ones for added variety.
 
-- Procedurally Generated Infinite Mode**: As a long-term goal, implement a mode featuring procedurally generated terrain for endless driving enjoyment until the player crashes.
+- Procedurally Generated Infinite Mode: As a long-term goal, implement a mode featuring procedurally generated terrain for endless driving enjoyment until the player crashes.
 
-- Diversified Obstacles and Mountain Design**: Introduce more obstacles or redesign the mountain layout to provide increased challenge and engagement for players.
+- Diversified Obstacles and Mountain Design: Introduce more obstacles or redesign the mountain layout to provide increased challenge and engagement for players.
 
-- Refinement of PlayerController**: Continuously improve the PlayerController for smoother gameplay and an enhanced user experience.
+- Refinement of PlayerController: Continuously improve the PlayerController for smoother gameplay and an enhanced user experience.
 
-- Integration of Timer System**: Consider integrating a timer system to encourage players to achieve faster completion times on maps and improve their personal records.
-
-This revised version maintains clarity and conciseness while offering suggestions for potential enhancements and developments in your game.
+- Integration of Timer System: Consider integrating a timer system to encourage players to achieve faster completion times on maps and improve their personal records.
 
 # Code
 
