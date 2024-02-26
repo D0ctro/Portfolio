@@ -53,6 +53,7 @@ The PlayerController governs the player's movement and behavior. Key variables s
 ### CrashDetector
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/ebfc4d8f-4220-4563-b6c6-2046cf7badec)
+The CrashDetector manages collision detection and player respawn functionality. Key components include the `CrashEffect` particle system, `DeathDelay` for respawn timing, and `crashSFX` for crash sound effects. Update listens for the `R` key to restart the scene aka making the player Respawn at will. When the player collides with an object tagged as "Respawn" and hasn't crashed previously, the `OnTriggerEnter2D()` method triggers crash effects, disables player controls by calling the mentioned `DisableControls()` method from the PlayerController , plays the crash sound, and schedules respawn after a delay using `Invoke()`. The `Respawn()` function reloads the scene after a `DeathDelay`.
 
 ### FinishLine
 
