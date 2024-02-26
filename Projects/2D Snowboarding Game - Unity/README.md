@@ -43,6 +43,23 @@ The Controls are the following:
 
 # Code
 
+### PlayerController
+
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/5b7e6562-632f-4f6b-8239-9fa78474614b)
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/35cd69ed-f300-4505-8762-18a75f3be739)
 
+### CrashDetector
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/ebfc4d8f-4220-4563-b6c6-2046cf7badec)
+
+### FinishLine
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/4950ce6c-6691-4e0b-91d4-8d68a4098756)
+
+### DustTrail
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/a48a15bb-64da-4cf3-9704-64ba40ee15b3)
+
+### BGM
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/fcec0e2e-e04b-49ba-9f9d-50e1261d79e7)
