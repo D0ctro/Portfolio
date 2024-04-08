@@ -13,6 +13,7 @@ The course I followed is provided by GameDev.TV.
 4. [Controls](#controls)
 5. [Improvements](#improvements)
 6. [Code](#Code)
+7. [What I learned](#What-I-learned)
 
 # Description
 
@@ -58,3 +59,6 @@ For enhancing this game or continuing its development, consider the following ad
 
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/5b7e6562-632f-4f6b-8239-9fa78474614b)
 ![image](https://github.com/D0ctro/Portfolio/assets/100345820/35cd69ed-f300-4505-8762-18a75f3be739)
+
+# What I learned
+
