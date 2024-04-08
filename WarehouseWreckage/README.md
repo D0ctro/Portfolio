@@ -1,6 +1,6 @@
 # Warehouse Wreckage
 
-I madea a game/simulation in Unreal 5.1 to learn about physics and get used to Unreal Engine. 
+I made a game/simulation in Unreal 5.1 to learn about physics and get used to Unreal Engine. 
 
 The assets utilized in this small beginner project were not created by me but were provided within the online course I purchased on Udemy.
 The course I followed is provided by GameDev.TV.
