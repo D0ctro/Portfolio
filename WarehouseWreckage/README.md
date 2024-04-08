@@ -55,10 +55,18 @@ For enhancing this game or continuing its development, consider the following ad
 
 # Code
 
-### PlayerController
+## MainLevel Blueprint
 
-![image](https://github.com/D0ctro/Portfolio/assets/100345820/5b7e6562-632f-4f6b-8239-9fa78474614b)
-![image](https://github.com/D0ctro/Portfolio/assets/100345820/35cd69ed-f300-4505-8762-18a75f3be739)
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/ba8556b7-cc1f-4ae9-82d2-53ed14550b4d)
+
+The Level Blueprint of Warehouse wreckage is rather self explanatory and straightforward. 
+All of its funcionality is inside the seen functions.
+
+### Relevant functions 
+
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/a09b77bd-893a-4ac6-b46f-1a267f7aca19)
+
+
 
 # Gained Knowledge
 
