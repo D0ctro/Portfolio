@@ -15,7 +15,7 @@ The assets utilized in this small beginner project were not created by me but we
 
 # Description
 
-![image](https://github.com/D0ctro/Portfolio/assets/100345820/5387f1a9-2942-442d-90d8-13d8838c67d7)
+![image](https://github.com/D0ctro/Portfolio/assets/100345820/2011da05-c557-4f52-8a5d-96bc0528d9c8)
 
 In my first side scroller is a snowboarding game where you try to reach the finish line while not falling on your head and thus resetting the level. 
 In this game you can rotate your character mid air and gain speed when landing a "trick". 
